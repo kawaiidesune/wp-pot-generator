@@ -1,0 +1,23 @@
+{
+    "name": "kawaiidesune/wp-pot-generator",
+    "description": "WordPress POT file generator.",
+    "keywords": ["wordpress", "i18n"],
+    "authors": [
+        {
+            "name": "Véronique Bellamy",
+            "email": "v@vero.moe"
+        }
+    ],
+    "autoload": {
+    },
+    "require": {
+        "ext-zip": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/console": "~3.0|~4.0",
+        "symfony/filesystem": "~3.0|~4.0",
+        "symfony/process": "~3.0|~4.0"
+    },
+    "bin": [
+        "wp-potgen"
+    ]
+}
