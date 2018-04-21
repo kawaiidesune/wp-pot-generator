@@ -11,6 +11,11 @@
     "autoload": {
     },
     "require": {
+	    "php": ">=5.4",
+		"johnpbloch/wordpress": "4.2",
+        
+        
+        
         "ext-zip": "*",
         "guzzlehttp/guzzle": "~6.0",
         "symfony/console": "~3.0|~4.0",
